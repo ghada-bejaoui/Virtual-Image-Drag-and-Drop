@@ -44,7 +44,7 @@ for x, pathImg in enumerate(myList):
         imgType = 'png'
     else:
         imgType = 'jpg'
-    listImg.append(DragImg(f'{path}/{pathImg}', [50 + x * 135, 100], imgType))
+    listImg.append(DragImg(f'{path}/{pathImg}', [50 + x * 200, 50], imgType))
 
 while True:
     success, img = cap.read()
